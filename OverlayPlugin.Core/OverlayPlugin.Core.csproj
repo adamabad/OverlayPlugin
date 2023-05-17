@@ -151,6 +151,22 @@
     <Compile Include="Integration\OverlayPluginLogLines.cs" />
     <Compile Include="ClipboardTechSupport.cs" />
     <Compile Include="OverlayHider.cs" />
+    <Compile Include="Overlays\BrowserSource.cs" />
+    <Compile Include="Overlays\BrowserSourceConfig.cs" />
+    <Compile Include="Overlays\BrowserSourceConfigPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Overlays\BrowserSourceConfigPanel.Designer.cs">
+      <DependentUpon>BrowserSourceConfigPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Overlays\DiscordOverlay.cs" />
+    <Compile Include="Overlays\DiscordOverlayConfig.cs" />
+    <Compile Include="Overlays\DiscordOverlayConfigPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Overlays\DiscordOverlayConfigPanel.Designer.cs">
+      <DependentUpon>DiscordOverlayConfigPanel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Overlays\LogParseConfigPanel.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -418,6 +434,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EventSources\BuiltinEventConfigPanel.zh-CN.resx">
       <DependentUpon>BuiltinEventConfigPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Overlays\BrowserSourceConfigPanel.resx">
+      <DependentUpon>BrowserSourceConfigPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Overlays\DiscordOverlayConfigPanel.resx">
+      <DependentUpon>DiscordOverlayConfigPanel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Overlays\LabelOverlayConfigPanel.de-DE.resx">
       <DependentUpon>LabelOverlayConfigPanel.cs</DependentUpon>
