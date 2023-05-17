@@ -462,6 +462,8 @@ namespace RainbowMage.OverlayPlugin
                 registry.RegisterOverlay<MiniParseOverlay>();
                 registry.RegisterOverlay<SpellTimerOverlay>();
                 registry.RegisterOverlay<LabelOverlay>();
+                registry.RegisterOverlay<DiscordOverlay>();
+                registry.RegisterOverlay<BrowserSource>();
 
                 var version = typeof(PluginMain).Assembly.GetName().Version;
                 var Addons = new List<IOverlayAddonV2>();
