@@ -50,6 +50,9 @@
       <HintPath>..\Thirdparty\FFXIV_ACT_Plugin\SDK\FFXIV_ACT_Plugin.Common.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="OverlayPlugin.Core">
+      <HintPath>..\..\..\..\Downloads\OverlayPlugin-0.19.19\OverlayPlugin\libs\OverlayPlugin.Core.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
