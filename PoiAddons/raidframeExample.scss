@@ -1,0 +1,173 @@
+:root {
+	--scale: 1.2;
+  --border-color: white;
+  --border-width: 2px;
+  --sizeing-color: transparent;
+}
+
+body {
+	overflow: hidden;
+}
+ul[class^="Voice_voiceStates"] {
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex;
+  width: 0px;
+}
+
+li {
+  order: 2;
+  margin-top: calc(((var(--scale) * 12px) + (var(--scale) * 9px - 5px)) * 8);
+  height: 0%;
+  
+}
+
+
+
+img[class^="Voice_avatar"] {
+  top: calc(((var(--scale) * 12px) + (var(--scale) * 9px - 5px)) * 8);
+border-color: var(--sizeing-color); 
+opacity: 0;
+}
+
+/* PLAYER1 */
+img[class^="Voice_avatar"][src*="PLAYER1ID"] {
+  order: 0; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  content:url("https://media.discordapp.net/attachments/652360781651902490/1102492657172885554/HD_transparent_picture.png?width=1609&height=905");    
+  height: calc(var(--scale) * 12px) !important;  
+  width: calc(var(--scale) * 12px) !important;  
+  border-radius: calc(var(--scale) * 3.5px) !important; 
+  -moz-border-radius: calc(var(--scale) * 3.5px) !important;
+  -webkit-border-radius: calc(var(--scale) * 3.5px) !important; 
+  border-width: calc(var(--scale) * 1px + 1px) !important; 
+opacity: 1;
+}
+
+/* PLAYER2 */
+img[class^="Voice_avatar"][src*="PLAYER2ID"] { 
+  order: 0; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  top: calc(((var(--scale) * 12px) + (var(--scale) * 9px - 5px)) * 1);
+  content:url("https://media.discordapp.net/attachments/652360781651902490/1102492657172885554/HD_transparent_picture.png?width=1609&height=905");    
+  height: calc(var(--scale) * 12px) !important;  
+  width: calc(var(--scale) * 12px) !important;  
+  border-radius: calc(var(--scale) * 3.5px) !important; 
+  -moz-border-radius: calc(var(--scale) * 3.5px) !important;
+  -webkit-border-radius: calc(var(--scale) * 3.5px) !important; 
+  border-width: calc(var(--scale) * 1px + 1px) !important;
+opacity: 1;
+}
+
+/* PLAYER3 */
+img[class^="Voice_avatar"][src*="PLAYER3ID"] { 
+  order: 0; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  top: calc(((var(--scale) * 12px) + (var(--scale) * 9px - 5px)) * 2);
+  content:url("https://media.discordapp.net/attachments/652360781651902490/1102492657172885554/HD_transparent_picture.png?width=1609&height=905");    
+  height: calc(var(--scale) * 12px) !important;  
+  width: calc(var(--scale) * 12px) !important;  
+  border-radius: calc(var(--scale) * 3.5px) !important; 
+  -moz-border-radius: calc(var(--scale) * 3.5px) !important;
+  -webkit-border-radius: calc(var(--scale) * 3.5px) !important; 
+  border-width: calc(var(--scale) * 1px + 1px) !important;
+opacity: 1;
+}
+
+/* PLAYER4 */
+img[class^="Voice_avatar"][src*="PLAYER4ID"] { 
+  order: 0; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  top: calc(((var(--scale) * 12px) + (var(--scale) * 9px - 5px)) * 3);
+  content:url("https://media.discordapp.net/attachments/652360781651902490/1102492657172885554/HD_transparent_picture.png?width=1609&height=905");    
+  height: calc(var(--scale) * 12px) !important;  
+  width: calc(var(--scale) * 12px) !important;  
+  border-radius: calc(var(--scale) * 3.5px) !important; 
+  -moz-border-radius: calc(var(--scale) * 3.5px) !important;
+  -webkit-border-radius: calc(var(--scale) * 3.5px) !important; 
+  border-width: calc(var(--scale) * 1px + 1px) !important; 
+opacity: 1;
+}
+
+/* PLAYER5 */
+img[class^="Voice_avatar"][src*="PLAYER5ID"] { 
+  order: 0; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  top: calc(((var(--scale) * 12px) + (var(--scale) * 9px - 5px)) * 4);
+  content:url("https://media.discordapp.net/attachments/652360781651902490/1102492657172885554/HD_transparent_picture.png?width=1609&height=905");    
+  height: calc(var(--scale) * 12px) !important;  
+  width: calc(var(--scale) * 12px) !important;  
+  border-radius: calc(var(--scale) * 3.5px) !important; 
+  -moz-border-radius: calc(var(--scale) * 3.5px) !important;
+  -webkit-border-radius: calc(var(--scale) * 3.5px) !important; 
+  border-width: calc(var(--scale) * 1px + 1px) !important;
+opacity: 1;
+}
+
+/* PLAYER6 */
+img[class^="Voice_avatar"][src*="PLAYER6ID"] { 
+  order: 0; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  top: calc(((var(--scale) * 12px) + (var(--scale) * 9px - 5px)) * 5);
+  content:url("https://media.discordapp.net/attachments/652360781651902490/1102492657172885554/HD_transparent_picture.png?width=1609&height=905");    
+  height: calc(var(--scale) * 12px) !important;  
+  width: calc(var(--scale) * 12px) !important;  
+  border-radius: calc(var(--scale) * 3.5px) !important; 
+  -moz-border-radius: calc(var(--scale) * 3.5px) !important;
+  -webkit-border-radius: calc(var(--scale) * 3.5px) !important; 
+  border-width: calc(var(--scale) * 1px + 1px) !important;
+opacity: 1;
+}
+
+/* PLAYER7 */
+img[class^="Voice_avatar"][src*="PLAYER7ID"] { 
+  order: 0; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  top: calc(((var(--scale) * 12px) + (var(--scale) * 9px - 5px)) * 6);
+  content:url("https://media.discordapp.net/attachments/652360781651902490/1102492657172885554/HD_transparent_picture.png?width=1609&height=905");    
+  height: calc(var(--scale) * 12px) !important;  
+  width: calc(var(--scale) * 12px) !important;  
+  border-radius: calc(var(--scale) * 3.5px) !important; 
+  -moz-border-radius: calc(var(--scale) * 3.5px) !important;
+  -webkit-border-radius: calc(var(--scale) * 3.5px) !important; 
+  border-width: calc(var(--scale) * 1px + 1px) !important;
+opacity: 1;
+}
+
+/* PLAYER8 */
+img[class^="Voice_avatar"][src*="PLAYER8ID"] { 
+  order: 0; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  top: calc(((var(--scale) * 12px) + (var(--scale) * 9px - 5px)) * 7);
+  content:url("https://media.discordapp.net/attachments/652360781651902490/1102492657172885554/HD_transparent_picture.png?width=1609&height=905");    
+  height: calc(var(--scale) * 12px) !important;  
+  width: calc(var(--scale) * 12px) !important;  
+  border-radius: calc(var(--scale) * 3.5px) !important; 
+  -moz-border-radius: calc(var(--scale) * 3.5px) !important;
+  -webkit-border-radius: calc(var(--scale) * 3.5px) !important; 
+  border-width: calc(var(--scale) * 1px + 1px) !important;
+opacity: 1;
+}
+
+img[class*="Speaking"] { border-color: var(--border-color) !important; }
+span[class^="Voice_name"] { opacity: 0 !important; } img.Voice_avatar__htiqH {
+  margin-top: 0px;
+  border-top-width: 0px;
+  padding-top: 0px;
+}
