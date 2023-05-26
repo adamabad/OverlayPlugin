@@ -50,8 +50,13 @@
       <HintPath>..\Thirdparty\FFXIV_ACT_Plugin\SDK\FFXIV_ACT_Plugin.Common.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="OverlayPlugin.Core">
-      <HintPath>..\..\..\..\Downloads\OverlayPlugin-0.19.19\OverlayPlugin\libs\OverlayPlugin.Core.dll</HintPath>
+    <Reference Include="HtmlRenderer, Version=0.19.20.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\AppData\Roaming\Advanced Combat Tracker\Plugins\OverlayPlugin\libs\HtmlRenderer.dll</HintPath>
+    </Reference>
+    <Reference Include="OverlayPlugin.Core, Version=0.19.19.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\AppData\Roaming\Advanced Combat Tracker\Plugins\OverlayPlugin\libs\OverlayPlugin.Core.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -540,11 +545,6 @@
     <EmbeddedResource Include="Resources.zh-CN.resx" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\HtmlRenderer\HtmlRenderer.csproj">
-      <Project>{e2bc6483-b966-4a4a-b4cc-d50a4bd73af3}</Project>
-      <Name>HtmlRenderer</Name>
-      <Private>False</Private>
-    </ProjectReference>
     <ProjectReference Include="..\OverlayPlugin.Common\OverlayPlugin.Common.csproj">
       <Project>{423fcbfc-dd3b-415f-be29-7a4a46614b79}</Project>
       <Name>OverlayPlugin.Common</Name>

@@ -14,6 +14,7 @@ namespace RainbowMage.OverlayPlugin.Overlays
     {
         private BrowserSourceConfig config;
         private BrowserSource overlay;
+        private TinyIoCContainer container;
         public BrowserSourceConfigPanel()
         { 
         
@@ -24,6 +25,7 @@ namespace RainbowMage.OverlayPlugin.Overlays
 
             this.overlay = overlay;
             this.config = overlay.Config;
+            this.container = container;
 
             SetupControlProperties();
             SetupConfigEventHandles();            
@@ -260,7 +262,9 @@ namespace RainbowMage.OverlayPlugin.Overlays
 
         private void clearcache_btn_Click(object sender, EventArgs e)
         {
-            overlay.Overlay.Renderer.ClearCache();
+            container.Resolve<PluginMain>().ClearCacheOnRestart();
+            clearcache_btn.Enabled = false;
+            Updater.Updater.TryRestartACT(true, Resources.ClearCacheRestart);
         }
 
         private void isLogged_CheckedChanged(object sender, EventArgs e)
