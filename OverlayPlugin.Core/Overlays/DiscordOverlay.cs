@@ -110,6 +110,16 @@ namespace RainbowMage.OverlayPlugin.Overlays
             {
                 this.Overlay.Reload();
             };
+            Overlay.Renderer.BrowserStartLoading += (o, e) =>
+            {
+                if (e.Url.StartsWith("about:blank"))
+                    return;
+                Overlay.Renderer.SetZoomLevel(Config.Zoom / 100.0);
+                if (Config.ForceBackground)
+                {
+                    ExecuteScript("document.body.style.backgroundColor = 'white';");
+                }
+            };
         }
         private void UpdateURLOverlay()
         {
