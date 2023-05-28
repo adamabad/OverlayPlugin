@@ -54,9 +54,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\AppData\Roaming\Advanced Combat Tracker\Plugins\OverlayPlugin\libs\HtmlRenderer.dll</HintPath>
     </Reference>
-    <Reference Include="OverlayPlugin.Core, Version=0.19.19.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="OverlayPlugin.Core, Version=0.19.20.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\AppData\Roaming\Advanced Combat Tracker\Plugins\OverlayPlugin\libs\OverlayPlugin.Core.dll</HintPath>
+      <HintPath>..\..\..\..\Downloads\OverlayPlugin-0.19.20\OverlayPlugin\libs\OverlayPlugin.Core.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

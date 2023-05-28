@@ -559,7 +559,17 @@
             // 
             this.xUpDown.Dock = System.Windows.Forms.DockStyle.Fill;
             this.xUpDown.Location = new System.Drawing.Point(54, 0);
+            this.xUpDown.Maximum = new decimal(new int[] {
+            8192,
+            0,
+            0,
+            0});
             this.xUpDown.MaximumSize = new System.Drawing.Size(75, 0);
+            this.xUpDown.Minimum = new decimal(new int[] {
+            8192,
+            0,
+            0,
+            -2147483648});
             this.xUpDown.MinimumSize = new System.Drawing.Size(75, 0);
             this.xUpDown.Name = "xUpDown";
             this.xUpDown.ReadOnly = true;
@@ -583,7 +593,17 @@
             // 
             this.yUpDown.Dock = System.Windows.Forms.DockStyle.Fill;
             this.yUpDown.Location = new System.Drawing.Point(54, 0);
+            this.yUpDown.Maximum = new decimal(new int[] {
+            8192,
+            0,
+            0,
+            0});
             this.yUpDown.MaximumSize = new System.Drawing.Size(75, 0);
+            this.yUpDown.Minimum = new decimal(new int[] {
+            8192,
+            0,
+            0,
+            -2147483648});
             this.yUpDown.MinimumSize = new System.Drawing.Size(75, 0);
             this.yUpDown.Name = "yUpDown";
             this.yUpDown.ReadOnly = true;
